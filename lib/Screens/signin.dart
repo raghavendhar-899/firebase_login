@@ -59,7 +59,7 @@ class _SignInState extends State<SignIn> {
             TextFormField(
               validator: (value) => value.isEmpty ? "Enter password" : null,
               obscureText: true,
-              decoration: InputDecoration(hintText: "Passw ord"),
+              decoration: InputDecoration(hintText: "Password"),
               onChanged: (value) {
                 setState(() {
                   password = value;
